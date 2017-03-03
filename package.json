@@ -1,0 +1,28 @@
+{
+    "name": "node-js-extension-pack",
+    "displayName": "Node.js Extension Pack",
+    "description": "VS Code extensions for Node.js development. ",
+    "version": "0.0.1",
+    "publisher": "waderyan",
+    "engines": {
+        "vscode": "^1.10.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionDependencies": [ 
+        "dbaeumer.vscode-eslint",
+        "xabikos.JavaScriptSnippets",
+        "jasonnutter.search-node-modules",
+        "eg2.vscode-npm-script",
+        "christian-kohler.npm-intellisense",
+        "christian-kohler.path-intellisense"
+    ],
+    "repository": {
+        "url": "https://github.com/waderyan/nodejs-extension-pack"
+    },
+    "homepage": "https://github.com/waderyan/nodejs-extension-pack",
+    "bugs": {
+        "url": "https://github.com/waderyan/nodejs-extension-pack/issues"
+    }
+}
