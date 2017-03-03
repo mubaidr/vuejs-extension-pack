@@ -7,6 +7,11 @@
     "engines": {
         "vscode": "^1.10.0"
     },
+    "icon": "nodejs-icon.png",
+    "galleryBanner": {
+        "color": "#0072c6",
+        "theme": "dark"
+    },
     "categories": [
         "Extension Packs"
     ],
