@@ -1,15 +1,15 @@
 {
-    "name": "node-js-extension-pack",
+    "name": "nodejs-extension-pack",
     "displayName": "Node.js Extension Pack",
-    "description": "VS Code extensions for Node.js development. ",
-    "version": "0.0.1",
+    "description": "Popular VS Code extensions for Node.js development.",
+    "version": "0.1.0",
     "publisher": "waderyan",
     "engines": {
         "vscode": "^1.10.0"
     },
-    "icon": "nodejs-icon.png",
+    "icon": "nodejs-dark-icon.png",
     "galleryBanner": {
-        "color": "#0072c6",
+        "color": "#333333",
         "theme": "dark"
     },
     "categories": [
