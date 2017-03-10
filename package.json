@@ -2,10 +2,10 @@
     "name": "nodejs-extension-pack",
     "displayName": "Node.js Extension Pack",
     "description": "Popular VS Code extensions for Node.js development.",
-    "version": "0.1.6",
+    "version": "0.1.8",
     "publisher": "waderyan",
     "engines": {
-        "vscode": "^1.5.0"
+        "vscode": "^1.10.0"
     },
     "icon": "nodejs-dark-icon.png",
     "galleryBanner": {
