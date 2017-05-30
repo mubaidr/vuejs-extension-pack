@@ -19,4 +19,8 @@ This extension pack adds features for Vue.js development! These are some of my f
 
 Open a PR and I'd be happy to take a look. 
 
-**Enjoy!**
+## Credits
+
+All credits goes to original authors of the above mentioned extensions. 
+
+**Happy Coding!**
