@@ -1,6 +1,6 @@
 # Vue.js Extension Pack
 
-This extension pack adds features for Vue.js development! These are some of my favorite extensions to make Vue.js development easier and fun.
+This extension pack adds features for Vue.js development! These are some of my favorite extensions to make Vue.js development easier and fun. [Setup Guide for ESLint](#Recomended-Settings)
 
 ## Extensions Included
 
@@ -15,9 +15,100 @@ This extension pack adds features for Vue.js development! These are some of my f
 * [NPM IntelliSense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense) - Adds IntelliSense for npm modules in your code.
 * [Path IntelliSense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) - Autocompletes filenames in your code.
 
-## Recomended Settings
+## Recomended Settings & ESLint Setup
 
-coming soon
+### Vetur
+
+``` json
+"vetur.format.js.InsertSpaceBeforeFunctionParenthesis": true,
+// Whether to have initial indent for <style> section
+"vetur.format.styleInitialIndent": true,
+// Whether to have initial indent for <script> section
+"vetur.format.scriptInitialIndent": true
+```
+
+### How to get ESLint work with .vue files
+
+#### ESLint packages required (recomend to add in package.json)
+
+``` string
+"eslint": "^3.19.0",
+"eslint-friendly-formatter": "^2.0.7",
+"eslint-loader": "^1.7.1",
+"eslint-plugin-html": "^2.0.0",
+"eslint-config-standard": "^6.2.1",
+"eslint-plugin-promise": "^3.4.0",
+"eslint-plugin-standard": "^2.0.1"
+```
+
+#### vscode user settings
+
+``` json
+"eslint.enable": true,
+"eslint.options": {
+"extensions": [
+  ".html",
+  ".js",
+  ".vue",
+  ".jsx"
+  ]
+},
+"eslint.validate": [{
+  "language": "html",
+  "autoFix": true
+},
+{
+  "language": "vue",
+  "autoFix": true
+},
+{
+  "language": "javascript",
+  "autoFix": true
+},
+{
+  "language": "javascriptreact",
+  "autoFix": true
+}
+],
+// Run the linter on save (onSave) or on type (onType)
+"eslint.run": "onSave",
+"eslint.autoFixOnSave": true
+```
+
+#### .eslintrc.json (in root of the project folder)
+
+``` json
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  // https://github.com/feross/standard/blob/master/RULES.md#javascript-standard-style
+  "extends": "standard",
+  // required to lint *.vue files
+  "plugins": [
+    "html"
+  ],
+  "rules": {
+    "no-const-assign": "warn",
+    "no-this-before-super": "warn",
+    "no-undef": "warn",
+    "no-unreachable": "warn",
+    "no-unused-vars": "warn",
+    "constructor-super": "warn",
+    "valid-typeof": "warn"
+  }
+}
+
+```
 
 ## Add your extension to this pack
 
