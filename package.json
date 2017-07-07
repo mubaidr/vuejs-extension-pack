@@ -1,44 +1,44 @@
 {
-    "name": "vuejs-extension-pack",
-    "displayName": "Vue.js Extension Pack",
-    "description": "Collection of popular VS Code extensions for Vue.js development providing Syntax highlighting, Code format, Code snippets, IntelliSense, Linting support, npm & node tools.",
-    "version": "0.1.4",
-    "publisher": "mubaidr",
-    "engines": {
-        "vscode": "^1.10.0"
-    },
-    "icon": "vuejs-icon.png",
-    "galleryBanner": {
-        "color": "#333333",
-        "theme": "dark"
-    },
-    "keywords": [
-        "vuejs",
-        "vue",
-        "node",
-        "npm",
-        "es6"
-    ],
-    "categories": [
-        "Extension Packs"
-    ],
-    "repository": {
-        "url": "https://github.com/mubaidr/vuejs-extension-pack"
-    },
-    "homepage": "https://github.com/mubaidr/vuejs-extension-pack",
-    "bugs": {
-        "url": "https://github.com/mubaidr/vuejs-extension-pack/issues"
-    },
-    "extensionDependencies": [
-        "octref.vetur",
-        "oysun.vuehelper",
-        "formulahendry.auto-rename-tag",
-        "formulahendry.auto-close-tag",
-        "dbaeumer.vscode-eslint",
-        "xabikos.javascriptsnippets",
-        "jasonnutter.search-node-modules",
-        "eg2.vscode-npm-script",
-        "christian-kohler.npm-intellisense",
-        "christian-kohler.path-intellisense"
-    ]
+	"name": "vuejs-extension-pack",
+	"displayName": "Vue.js Extension Pack",
+	"description": "Collection of popular VS Code extensions for Vue.js development providing Syntax highlighting, Code format, Code snippets, IntelliSense, Linting support, npm & node tools.",
+	"version": "0.1.6",
+	"publisher": "mubaidr",
+	"engines": {
+		"vscode": "^1.10.0"
+	},
+	"icon": "vuejs-icon.png",
+	"galleryBanner": {
+		"color": "#333333",
+		"theme": "dark"
+	},
+	"keywords": [
+		"vuejs",
+		"vue",
+		"node",
+		"npm",
+		"es6"
+	],
+	"categories": [
+		"Extension Packs"
+	],
+	"repository": {
+		"url": "https://github.com/mubaidr/vuejs-extension-pack"
+	},
+	"homepage": "https://github.com/mubaidr/vuejs-extension-pack",
+	"bugs": {
+		"url": "https://github.com/mubaidr/vuejs-extension-pack/issues"
+	},
+	"extensionDependencies": [
+		"octref.vetur",
+		"oysun.vuehelper",
+		"formulahendry.auto-rename-tag",
+		"formulahendry.auto-close-tag",
+		"dbaeumer.vscode-eslint",
+		"xabikos.javascriptsnippets",
+		"jasonnutter.search-node-modules",
+		"eg2.vscode-npm-script",
+		"christian-kohler.npm-intellisense",
+		"christian-kohler.path-intellisense"
+	]
 }

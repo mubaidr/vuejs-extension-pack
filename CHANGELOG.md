@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.1.5
+
+- update recommended eslint settings
+
 ## 0.1.4
 
 - update Read me

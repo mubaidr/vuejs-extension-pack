@@ -1,6 +1,6 @@
 # Vue.js Extension Pack
 
-This extension pack adds features for Vue.js development! These are some of my favorite extensions to make Vue.js development easier and fun. [Setup Guide for ESLint](#Recomended-Settings)
+This extension pack adds features for Vue.js development! These are some of my favorite extensions to make Vue.js development easier and fun.
 
 ## Extensions Included
 
@@ -15,16 +15,44 @@ This extension pack adds features for Vue.js development! These are some of my f
 * [NPM IntelliSense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense) - Adds IntelliSense for npm modules in your code.
 * [Path IntelliSense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) - Autocompletes filenames in your code.
 
-## Recomended VSCode Settings *(optional)*
+## VSCode Settings For ESLINT *(optional)*
 
-### Vetur: Enable recomended code format settings
+### ESLint installation
+
+You have to install following pakcage either globally or locally (preffered) as dev dependencies.
 
 ``` json
-"vetur.format.js.InsertSpaceBeforeFunctionParenthesis": true,
-// Whether to have initial indent for <style> section
-"vetur.format.styleInitialIndent": true,
-// Whether to have initial indent for <script> section
-"vetur.format.scriptInitialIndent": true
+"eslint": "^4.1.1",
+"eslint-config-standard": "^10.2.1",
+"eslint-friendly-formatter": "^3.0.0",
+"eslint-loader": "^1.8.0",
+"eslint-plugin-html": "^3.0.0",
+"eslint-plugin-vue": "beta",
+"eslint-plugin-import": "^2.6.1",
+"eslint-plugin-node": "^5.1.0",
+"eslint-plugin-promise": "^3.5.0",
+"eslint-plugin-standard": "^3.0.1"
+```
+
+### Create .eslintrc.json in project root
+
+Open command pallet and enter `ESlint` then select `Create .eslintrc.json` file and add following settings:
+
+``` json
+"extends": [
+    "standard",
+    "plugin:vue/recommended"
+  ],
+  "settings": {
+    "html/html-extensions": [
+      ".html"
+    ],
+    "html/report-bad-indent": "error"
+  },
+  // required to lint *.vue files
+  "plugins": [
+    "html"
+  ]
 ```
 
 ### ESLint: Enable validate and autofix for `.vue` files
@@ -56,62 +84,8 @@ This extension pack adds features for Vue.js development! These are some of my f
   "autoFix": true
 }
 ],
-// Run the linter on save (onSave) or on type (onType)
 "eslint.run": "onSave",
 "eslint.autoFixOnSave": true
-```
-
-## Following steps are required **ONLY** if you are **NOT** using `vue-cli` for scaffolding Vue.js projects
-
-### ESLint installation
-
-If you did **not** use `vue-cli` for scaffolding Vue.js project, you have to install following pakcage either globally or locally as dev dependencies.
-
-``` json
-"eslint": "^3.19.0",
-"eslint-friendly-formatter": "^2.0.7",
-"eslint-loader": "^1.7.1",
-"eslint-plugin-html": "^2.0.0",
-"eslint-config-standard": "^6.2.1",
-"eslint-plugin-promise": "^3.4.0",
-"eslint-plugin-standard": "^2.0.1"
-```
-
-### Create .eslintrc.json in project root
-
-Open command pallet and ente `ESlint` and select `Create .eslintrc.json` file
-
-``` json
-{
-  "env": {
-    "browser": true,
-    "commonjs": true,
-    "es6": true,
-    "node": true
-  },
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
-    },
-    "sourceType": "module"
-  },
-  // https://github.com/feross/standard/blob/master/RULES.md#javascript-standard-style
-  "extends": "standard",
-  // required to lint *.vue files
-  "plugins": [
-    "html"
-  ],
-  "rules": {
-    "no-const-assign": "warn",
-    "no-this-before-super": "warn",
-    "no-undef": "warn",
-    "no-unreachable": "warn",
-    "no-unused-vars": "warn",
-    "constructor-super": "warn",
-    "valid-typeof": "warn"
-  }
-}
-
 ```
 
 ## Add your extension to this pack
