@@ -15,9 +15,7 @@ This extension pack adds features for Vue.js development! These are some of my f
 * [NPM IntelliSense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense) - Adds IntelliSense for npm modules in your code.
 * [Path IntelliSense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) - Autocompletes filenames in your code.
 
-## VSCode Settings For ESLINT *(optional)*
-
-### ESLint installation
+## ESLint installation
 
 You have to install following pakcage either globally or locally (preffered) as dev dependencies.
 

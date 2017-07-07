@@ -2,7 +2,7 @@
 	"name": "vuejs-extension-pack",
 	"displayName": "Vue.js Extension Pack",
 	"description": "Collection of popular VS Code extensions for Vue.js development providing Syntax highlighting, Code format, Code snippets, IntelliSense, Linting support, npm & node tools.",
-	"version": "0.1.6",
+	"version": "0.1.7",
 	"publisher": "mubaidr",
 	"engines": {
 		"vscode": "^1.10.0"
