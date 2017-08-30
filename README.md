@@ -5,7 +5,6 @@ This extension pack adds features for Vue.js development! These are some of my f
 ## Extensions Included
 
 * [vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) - Enable .vue files Syntax Highlight, Format, Scaffold, Emmet, IntelliSense, linting and more.
-* [vuehelper](https://marketplace.visualstudio.com/items?itemName=oysun.vuehelper) - Code snippets for Vue,Vue-router and Vuex.
 * [auto-rename-tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) - Automatically add HTML/XML close tag.
 * [auto-close-tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) - Auto rename paired HTML/XML tag.
 * [ES Lint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - Integrates ESLint into VS Code.

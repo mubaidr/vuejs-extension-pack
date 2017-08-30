@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.1.8
+
+- Remove Vue-helper extension from the pack
+
 ## 0.1.7
 
 - update recommended eslint settings
