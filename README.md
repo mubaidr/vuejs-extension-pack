@@ -6,6 +6,7 @@ This extension pack adds features for Vue.js development.
 
 * [vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) - Vue tooling for VSCode
 * [vue-peek](https://marketplace.visualstudio.com/items?itemName=dariofuzinato.vue-peek) - Allows peek and goto definition for Vue single-file components
+* [Vue 2 Snippets](https://marketplace.visualstudio.com/items?itemName=hollowtree.vue-snippets) - A Vue.js 2 Extension
 * [auto-rename-tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) - Auto rename paired HTML/XML tag
 * [auto-close-tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) - Automatically add HTML/XML close tag, same as Visual Studio IDE or Sublime Text
 * [ES Lint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - Integrates ESLint into VS Code

@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.2.1
+
+- Fix missing reference to an extension author
+
 ## 0.2.0
 
 - Added two new extensions: "Vue Peek" & "vue-snippets"
