@@ -2,7 +2,7 @@
     "name": "vuejs-extension-pack",
     "displayName": "Vue.js Extension Pack",
     "description": "Collection of popular VS Code extensions for Vue.js development providing Syntax highlighting, Code format, Code snippets, IntelliSense, Linting support, npm & node tools.",
-    "version": "0.1.9",
+    "version": "0.2",
     "publisher": "mubaidr",
     "engines": {
         "vscode": "^1.12.0"
@@ -30,14 +30,15 @@
         "url": "https://github.com/mubaidr/vuejs-extension-pack/issues"
     },
     "extensionDependencies": [
-        "octref.vetur",
-        "formulahendry.auto-rename-tag",
-        "formulahendry.auto-close-tag",
-        "dbaeumer.vscode-eslint",
-        "xabikos.javascriptsnippets",
-        "jasonnutter.search-node-modules",
-        "eg2.vscode-npm-script",
         "christian-kohler.npm-intellisense",
-        "christian-kohler.path-intellisense"
+        "christian-kohler.path-intellisense",
+        "dariofuzinato.vue-peek",
+        "dbaeumer.vscode-eslint",
+        "eg2.vscode-npm-script",
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag",
+        "hollowtree.vue-snippets",
+        "octref.vetur",
+        "xabikos.javascriptsnippets"
     ]
 }

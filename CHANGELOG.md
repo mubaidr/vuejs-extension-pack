@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 0.2
+
+- Added two new extensions: "Vue Peek" & "vue-snippets"
+- Removed "Search node_modules"
+
 ## 0.1.9
 
 - Remove Vue-helper extension from the pack
