@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## 0.2
+## 0.2.0
 
 - Added two new extensions: "Vue Peek" & "vue-snippets"
 - Removed "Search node_modules"
