@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.0.0
+
+* Added `eslint` and `prettier` extensions with recomended settings
+
 ## 0.2.2
 
 * Remove `vue 2 snippets` as `vetur` support snippets
