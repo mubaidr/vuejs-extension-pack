@@ -3,7 +3,7 @@
   "displayName": "Vue.js Extension Pack",
   "description":
     "Popular VS Code extensions for Vue.js development providing Syntax highlighting, Code format, Code snippets, IntelliSense, Linting support, npm & node tools.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "mubaidr",
   "engines": {
     "vscode": "^1.12.0"
@@ -32,6 +32,7 @@
     "octref.vetur",
     "xabikos.javascriptsnippets",
     "esbenp.prettier-vscode",
-    "dbaeumer.vscode-eslint"
+    "dbaeumer.vscode-eslint",
+    "mrmlnc.vscode-attrs-sorter"
   ]
 }

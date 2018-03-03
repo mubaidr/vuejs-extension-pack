@@ -4,7 +4,7 @@ This extension pack adds features for Vue.js development.
 
 ## Note
 
-Please read the [recommended settings](#Recommended-Settings) sections for best experience.
+Please read the [Recommended Settings](#Recommended-Settings) sections for best experience.
 
 ## Extensions Included
 
@@ -29,6 +29,8 @@ Please read the [recommended settings](#Recommended-Settings) sections for best 
   Integrates ESLint into VS Code.
 * [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) -
   VS Code plugin for prettier/prettier
+* [Sorting HTML and Jade attributes](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-attrs-sorter) -
+  Sorting of the tag attributes in the specified order
 
 ## Recommended Settings
 
@@ -49,6 +51,47 @@ Update VS Code settings to enable `validate` and `autofix` for `vue` language:
     "language": "vue"
   }
 ]
+```
+
+Enable eslint compatible and recommended settings for `Sorting HTML and Jade attributes`:
+
+```json
+"attrsSorter.order": [
+    "is",
+    "v-for",
+    "v-if",
+    "v-else-if",
+    "v-else",
+    "v-show",
+    "v-cloak",
+    "v-once",
+    "v-pre",
+    "id",
+    "ref",
+    "key",
+    "slot",
+    "v-model",
+    "v-bind",
+    ":.+",
+    "v-on",
+    "@+",
+    "v-text",
+    "v-html",
+    "class",
+    "name",
+    "data-.+",
+    "ng-.+",
+    "src",
+    "for",
+    "type",
+    "href",
+    "values",
+    "title",
+    "alt",
+    "role",
+    "aria-.+",
+    "$unknown$"
+  ]
 ```
 
 ### ESLint

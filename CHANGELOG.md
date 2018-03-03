@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.0.1
+
+* Added `vscode-attrs-sorter` with recomended settings
+
 ## 1.0.0
 
 * Added `eslint` and `prettier` extensions with recomended settings
