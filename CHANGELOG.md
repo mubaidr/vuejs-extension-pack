@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.0.2
+
+* Update `vscode-attrs-sorter` recomended settings
+
 ## 1.0.1
 
 * Added `vscode-attrs-sorter` with recomended settings
