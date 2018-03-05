@@ -13,7 +13,7 @@
     "color": "#333333",
     "theme": "dark"
   },
-  "keywords": ["javascript", "vue", "node", "lint", "format", "node", "es6"],
+  "keywords": ["vue.js", "vue", "node", "javascript"],
   "categories": ["Extension Packs"],
   "repository": {
     "url": "https://github.com/mubaidr/vuejs-extension-pack"
