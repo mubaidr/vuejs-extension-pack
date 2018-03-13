@@ -1,5 +1,7 @@
 # Vue.js Extension Pack
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mubaidr/vuejs-extension-pack.svg)](https://greenkeeper.io/)
+
 This extension pack adds features for Vue.js development.
 
 ## Note
