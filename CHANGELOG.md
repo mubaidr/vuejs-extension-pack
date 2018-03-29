@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.0.3
+
+* Added `Beautify` with recomended settings
+* Small fixes in Readme
+
 ## 1.0.2
 
 * Update `vscode-attrs-sorter` recomended settings

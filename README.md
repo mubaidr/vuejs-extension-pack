@@ -4,7 +4,7 @@ This extension pack adds features for Vue.js development.
 
 ## Note
 
-Please read the [Recommended Settings](#Recommended-Settings) sections for best experience.
+Please read the [Recommended Settings](#Recommended-Settings) section to enable all features.
 
 ## Extensions Included
 
@@ -29,10 +29,11 @@ Please read the [Recommended Settings](#Recommended-Settings) sections for best 
   Integrates ESLint into VS Code.
 * [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) -
   VS Code plugin for prettier/prettier
+* [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) - Beautify code in place for VS Code
 * [Sorting HTML and Jade attributes](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-attrs-sorter) -
   Sorting of the tag attributes in the specified order
 
-## Recommended Settings
+## Recommended-Settings
 
 ### VS Code
 
@@ -49,8 +50,37 @@ Update VS Code settings to enable `validate` and `autofix` for `vue` language:
   {
     "autoFix": true,
     "language": "vue"
-  }
+  },
+  ...
 ]
+```
+
+Enable `Beautify` for HTML only (javascript/css is handled by `prettier`):
+
+```json
+"beautify.config": {
+  "editorconfig": true,
+  "indent_size": 2,
+  "wrap_attributes": "force-aligned",
+  "wrap_attributes_indent_size": 2,
+  "wrap_line_length": 80
+},
+"beautify.language": {
+  "html": [
+    "htm",
+    "html"
+  ]
+},
+"vetur.format.defaultFormatter.html": "js-beautify-html",
+"vetur.format.defaultFormatterOptions": {
+  "js-beautify-html": {
+    "editorconfig": true,
+    "indent_size": 2,
+    "wrap_attributes": "force-aligned",
+    "wrap_attributes_indent_size": 2,
+    "wrap_line_length": 80
+  }
+},
 ```
 
 Enable eslint compatible and recommended settings for `Sorting HTML and Jade attributes`:
@@ -111,7 +141,7 @@ Update eslint config (`.eslintrc.js` or `.eslintrc.json`):
 
 ```json
 "plugins": ["vue"],
-"extends": ["plugin:vue/recommended", "prettier"]
+"extends": [/*airbnb or standard*/,"plugin:vue/recommended", "prettier"]
 ```
 
 ## Credits
