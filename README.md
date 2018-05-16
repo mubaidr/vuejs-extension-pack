@@ -4,9 +4,49 @@ This extension pack adds features for Vue.js development.
 
 ## Note
 
-Please read the [Recommended Settings](#Recommended-Settings) section to enable all features.
+**Please read the [Recommended Settings](#Recommended-Settings) section to enable all features.**
 
-## Extensions Included
+## Recommended-Settings
+
+### Setup VS Code
+
+Enable prettier and eslint integration ([read more](https://github.com/prettier/prettier-eslint)):
+
+```js
+"prettier.eslintIntegration": true
+```
+
+Enable Eslint for `.vue` files:
+
+```js
+"eslint.validate": [
+  "javascript",
+  "javascriptreact",
+  "vue"
+]
+```
+
+### Setup ESLint
+
+Install following package (global or local):
+
+```js
+npm install --save-dev eslint-plugin-vue // install vue plugin for eslint
+npm install --save-dev eslint-config-prettier // install prettier config for eslint
+```
+
+Create/update eslint config file (`.eslintrc.js` or `.eslintrc.json`) in your project folder:
+
+```js
+// Sample `.eslintrc.js`
+
+module.exports = {
+  plugins: ['vue'], // enable vue plugin
+  extends: [, /*airbnb or standard*/ 'plugin:vue/essential', 'prettier'], // activate vue related config for eslint
+}
+```
+
+## Extensions Included in this pack
 
 * [vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) -
   Vue tooling for VSCode
@@ -29,120 +69,7 @@ Please read the [Recommended Settings](#Recommended-Settings) section to enable 
   Integrates ESLint into VS Code.
 * [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) -
   VS Code plugin for prettier/prettier
-* [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) - Beautify code in place for VS Code
-* [Sorting HTML and Jade attributes](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-attrs-sorter) -
-  Sorting of the tag attributes in the specified order
-
-## Recommended-Settings
-
-### VS Code
-
-Update VS Code settings to enable `validate` and `autofix` for `vue` language:
-
-```json
-"prettier.eslintIntegration": true,
-"eslint.autoFixOnSave": true,
-"eslint.validate": [
-  {
-    "autoFix": true,
-    "language": "javascript"
-  },
-  {
-    "autoFix": true,
-    "language": "vue"
-  },
-  ...
-]
-```
-
-Enable `Beautify` for HTML only (javascript/css is handled by `prettier`):
-
-```json
-"beautify.config": {
-  "editorconfig": true,
-  "indent_size": 2,
-  "wrap_attributes": "force-aligned",
-  "wrap_attributes_indent_size": 2,
-  "wrap_line_length": 80
-},
-"beautify.language": {
-  "html": [
-    "htm",
-    "html"
-  ]
-},
-"vetur.format.defaultFormatter.html": "js-beautify-html",
-"vetur.format.defaultFormatterOptions": {
-  "js-beautify-html": {
-    "editorconfig": true,
-    "indent_size": 2,
-    "wrap_attributes": "force-aligned",
-    "wrap_attributes_indent_size": 2,
-    "wrap_line_length": 80
-  }
-},
-```
-
-Enable eslint compatible and recommended settings for `Sorting HTML and Jade attributes`:
-
-```json
-"attrsSorter.order": [
-    "is",
-    "v-for",
-    "v-if",
-    "v-else-if",
-    "v-else",
-    "v-show",
-    "v-cloak",
-    "v-once",
-    "v-pre",
-    "id",
-    "ref",
-    "key",
-    "slot",
-    "v-model",
-    "v-model.+",
-    "v-bind",
-    "v-bind.+",
-    ":.+",
-    "v-text",
-    "v-text.+",
-    "v-html",
-    "v-html.+",
-    "class",
-    "v-on.+",
-    "@.+",
-    "name",
-    "data-.+",
-    "ng-.+",
-    "src",
-    "for",
-    "type",
-    "href",
-    "values",
-    "title",
-    "alt",
-    "role",
-    "aria-.+",
-    "$unknown$"
-  ]
-```
-
-### ESLint
-
-Install following packages:
-
-```js
-npm install --save-dev eslint-config-prettier
-npm install --save-dev eslint-plugin-vue
-```
-
-Update eslint config (`.eslintrc.js` or `.eslintrc.json`):
-
-```json
-"plugins": ["vue"],
-"extends": [/*airbnb or standard*/,"plugin:vue/recommended", "prettier"]
-```
+* [Formatting toggle](https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle) - A VS Code extension that allows you to toggle the formatter on and off with a simple click
 
 ## Credits
 

@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 1.1.0
+
+* Added `vscode-status-bar-format-toggle`
+* Removed `Beautify`
+* Removed `vscode-attrs-sorter`
+* Update Readme
+
 ## 1.0.3
 
 * Added `Beautify` with recomended settings
