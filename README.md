@@ -32,7 +32,6 @@ Install following packages:
 
 ```js
 npm install --save-dev eslint-plugin-vue // install vue plugin for eslint
-npm install --save-dev eslint-config-prettier // install prettier config for eslint
 ```
 
 Create/update eslint config file (`.eslintrc.js` or `.eslintrc.json`) in your project folder:
@@ -42,7 +41,7 @@ Create/update eslint config file (`.eslintrc.js` or `.eslintrc.json`) in your pr
 
 module.exports = {
   plugins: ['vue'], // enable vue plugin
-  extends: [, /*airbnb or standard*/ 'plugin:vue/essential', 'prettier'], // activate vue related config for eslint
+  extends: ['plugin:vue/essential'], // activate vue related rules
 }
 ```
 

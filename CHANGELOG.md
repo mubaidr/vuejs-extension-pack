@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.1.1
+
+* Updated Readme
+
 ## 1.1.0
 
 * Added `vscode-status-bar-format-toggle`
