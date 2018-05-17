@@ -28,7 +28,7 @@ Enable Eslint for `.vue` files:
 
 ### Setup ESLint
 
-Install following package (global or local):
+Install following packages:
 
 ```js
 npm install --save-dev eslint-plugin-vue // install vue plugin for eslint
