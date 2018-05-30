@@ -2,10 +2,9 @@
   "bugs": {
     "url": "https://github.com/mubaidr/vuejs-extension-pack/issues"
   },
-  "categories": [
-    "Extension Packs"
-  ],
-  "description": "Popular VS Code extensions for Vue.js development providing Syntax highlighting, Code format, Code snippets, IntelliSense, Linting support, npm & node tools.",
+  "categories": ["Extension Packs"],
+  "description":
+    "Popular VS Code extensions for Vue.js development providing Syntax highlighting, Code format, Code snippets, IntelliSense, Linting support, npm & node tools.",
   "displayName": "Vue.js Extension Pack",
   "engines": {
     "vscode": "^1.12.0"
@@ -29,16 +28,11 @@
   },
   "homepage": "https://github.com/mubaidr/vuejs-extension-pack",
   "icon": "vuejs-icon.png",
-  "keywords": [
-    "vue.js",
-    "vue",
-    "node",
-    "javascript"
-  ],
+  "keywords": ["vue.js", "vue", "node", "javascript"],
   "name": "vuejs-extension-pack",
   "publisher": "mubaidr",
   "repository": {
     "url": "https://github.com/mubaidr/vuejs-extension-pack"
   },
-  "version": "1.1.1"
+  "version": "1.1.2"
 }

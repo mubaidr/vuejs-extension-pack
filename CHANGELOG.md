@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.1.2
+
+* Updated Recomended Settings
+
 ## 1.1.1
 
 * Updated Readme

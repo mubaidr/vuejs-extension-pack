@@ -10,15 +10,10 @@ This extension pack adds features for Vue.js development.
 
 ### Setup VS Code
 
-Enable prettier and eslint integration ([read more](https://github.com/prettier/prettier-eslint)):
+Enable FormatOnSave & Eslint for `.vue` files:
 
 ```js
-"prettier.eslintIntegration": true
-```
-
-Enable Eslint for `.vue` files:
-
-```js
+"editor.formatOnSave": true,
 "eslint.validate": [
   "javascript",
   "javascriptreact",
@@ -30,8 +25,9 @@ Enable Eslint for `.vue` files:
 
 Install following packages:
 
-```js
-npm install --save-dev eslint-plugin-vue // install vue plugin for eslint
+```sh
+npm install --save-dev eslint-plugin-vue
+npm install --save-dev eslint-config-prettier
 ```
 
 Create/update eslint config file (`.eslintrc.js` or `.eslintrc.json`) in your project folder:
@@ -41,7 +37,7 @@ Create/update eslint config file (`.eslintrc.js` or `.eslintrc.json`) in your pr
 
 module.exports = {
   plugins: ['vue'], // enable vue plugin
-  extends: ['plugin:vue/essential'], // activate vue related rules
+  extends: ['plugin:vue/essential', 'prettier'], // activate vue related rules
 }
 ```
 
