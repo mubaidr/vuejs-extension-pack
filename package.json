@@ -20,7 +20,8 @@
     "xabikos.javascriptsnippets",
     "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint",
-    "tombonnike.vscode-status-bar-format-toggle"
+    "tombonnike.vscode-status-bar-format-toggle",
+    "MS-vsliveshare.vsliveshare"
   ],
   "galleryBanner": {
     "color": "#333333",
