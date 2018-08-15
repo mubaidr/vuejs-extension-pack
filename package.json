@@ -9,7 +9,7 @@
   "engines": {
     "vscode": "^1.12.0"
   },
-  "extensionDependencies": [
+  "extensionPack": [
     "christian-kohler.npm-intellisense",
     "christian-kohler.path-intellisense",
     "dariofuzinato.vue-peek",
