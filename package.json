@@ -12,17 +12,14 @@
   },
   "extensionPack": [
     "christian-kohler.npm-intellisense",
-    "christian-kohler.path-intellisense",
-    "dariofuzinato.vue-peek",
     "eg2.vscode-npm-script",
-    "formulahendry.auto-close-tag",
-    "formulahendry.auto-rename-tag",
+    "formulahendry.auto-complete-tag",
     "octref.vetur",
     "xabikos.javascriptsnippets",
     "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint",
     "tombonnike.vscode-status-bar-format-toggle",
-    "robertoachar.vscode-essentials-snippets"
+    "VisualStudioExptTeam.vscodeintellicode"
   ],
   "galleryBanner": {
     "color": "#333333",
@@ -41,5 +38,5 @@
   "repository": {
     "url": "https://github.com/mubaidr/vuejs-extension-pack"
   },
-  "version": "1.1.5"
+  "version": "1.1.6"
 }

@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.1.6
+
+- Updated config and packages list
+- Added `AI-assisted development`
+
 ## 1.1.5
 
 - Updated config and packages list
