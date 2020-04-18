@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 1.2.0
+
+- add typescript support
+- `Vue VSCode Snippets`
+- updated recommended ESlint configs and update required packages support
+
 ## 1.1.6
 
 - Updated config and packages list

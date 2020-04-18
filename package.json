@@ -11,15 +11,14 @@
     "vscode": "^1.26.0"
   },
   "extensionPack": [
-    "christian-kohler.npm-intellisense",
-    "eg2.vscode-npm-script",
     "formulahendry.auto-complete-tag",
     "octref.vetur",
     "xabikos.javascriptsnippets",
     "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint",
     "tombonnike.vscode-status-bar-format-toggle",
-    "VisualStudioExptTeam.vscodeintellicode"
+    "VisualStudioExptTeam.vscodeintellicode",
+    "sdras.vue-vscode-snippets"
   ],
   "galleryBanner": {
     "color": "#333333",
@@ -28,15 +27,15 @@
   "homepage": "https://github.com/mubaidr/vuejs-extension-pack",
   "icon": "vuejs-icon.png",
   "keywords": [
-    "vue.js",
     "vue",
     "node",
-    "javascript"
+    "javascript",
+    "typescript"
   ],
   "name": "vuejs-extension-pack",
   "publisher": "mubaidr",
   "repository": {
     "url": "https://github.com/mubaidr/vuejs-extension-pack"
   },
-  "version": "1.1.6"
+  "version": "1.2.0"
 }
