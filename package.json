@@ -22,7 +22,7 @@
     "tombonnike.vscode-status-bar-format-toggle",
     "eg2.vscode-npm-script",
     "christian-kohler.npm-intellisense",
-    "VisualStudioExptTeam.vscodeintellicode",
+    "VisualStudioExptTeam.vscodeintellicode"
   ],
   "galleryBanner": {
     "color": "#333333",
