@@ -1,5 +1,14 @@
 # CHANGELOG
 
+
+## 1.3.0
+
+Add following new packages:
+
+- `Vue Language Features (Volar)`
+- `TypeScript Vue Plugin (Volar)`
+- `npm`
+
 ## 1.2.1
 
 - add typescript support
