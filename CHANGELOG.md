@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 1.3.0
+
+Remvoe `Vetur` in favor of `Volar`
 
 ## 1.3.0
 
