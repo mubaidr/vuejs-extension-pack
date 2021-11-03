@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## 1.5.0
+## 1.6.0
 
 Remove `Vue VSCode Snippets` (which depends on `Vetur`) in favor of `Vue 3 Snippets`
 
