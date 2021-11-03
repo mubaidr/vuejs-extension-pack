@@ -1,8 +1,12 @@
 # CHANGELOG
 
-## 1.3.0
+## 1.5.0
 
-Remvoe `Vetur` in favor of `Volar`
+Remove `Vue VSCode Snippets` (which depends on `Vetur`) in favor of `Vue 3 Snippets`
+
+## 1.4.0
+
+Remove `Vetur` in favor of `Volar`
 
 ## 1.3.0
 

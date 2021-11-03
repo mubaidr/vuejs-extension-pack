@@ -13,7 +13,7 @@
   "extensionPack": [
     "johnsoncodehk.volar",
     "johnsoncodehk.vscode-typescript-vue-plugin",
-    "sdras.vue-vscode-snippets",
+    "hollowtree.vue-snippets",
     "xabikos.javascriptsnippets",
     "formulahendry.auto-complete-tag",
     "dbaeumer.vscode-eslint",
@@ -41,5 +41,5 @@
   "repository": {
     "url": "https://github.com/mubaidr/vuejs-extension-pack"
   },
-  "version": "1.4.0"
+  "version": "1.5.0"
 }
