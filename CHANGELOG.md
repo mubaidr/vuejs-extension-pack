@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.8.0
+
+- Removed "formulahendry.auto-complete-tag", vscode has built in support for tag close/ rename
+- Replace `hollowtree.vue-snippets` with `sdras.vue-vscode-snippets`
+
 ## 1.7.0
 
 - Fix/ Update official ids
