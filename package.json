@@ -19,7 +19,6 @@
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
     "tombonnike.vscode-status-bar-format-toggle",
-    "eg2.vscode-npm-script",
     "christian-kohler.npm-intellisense",
     "VisualStudioExptTeam.vscodeintellicode"
   ],
