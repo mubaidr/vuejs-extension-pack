@@ -15,6 +15,7 @@
     "vue.vscode-typescript-vue-plugin",
     "sdras.vue-vscode-snippets",
     "antfu.vite",
+    "ZixuanChen.vitest-explorer",
     "xabikos.javascriptsnippets",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
@@ -40,5 +41,5 @@
   "repository": {
     "url": "https://github.com/mubaidr/vuejs-extension-pack"
   },
-  "version": "1.8.0"
+  "version": "1.9.0"
 }

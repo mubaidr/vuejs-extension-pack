@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.9.0
+
+- Added `Vitest for VSCode`
+- Added instructions for `TypeScript Vue Plugin (Volar)`
+
 ## 1.8.0
 
 - Removed "formulahendry.auto-complete-tag", vscode has built in support for tag close/ rename
