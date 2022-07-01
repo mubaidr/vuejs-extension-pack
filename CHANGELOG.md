@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 1.7.0
+
+- Fix/ Update official ids
+- Add Vite extension
+- Remove npm script extension
+
 ## 1.6.0
 
 Remove `Vue VSCode Snippets` (which depends on `Vetur`) in favor of `Vue 3 Snippets`
