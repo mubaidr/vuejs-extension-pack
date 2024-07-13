@@ -5,7 +5,8 @@ This extension pack adds features and language support for Vue.js development.
 ## Extensions Included in this pack
 
 - [Vue Language Features (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) - Language support for Vue 3
-- [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin) - Vue Plugin for TypeScript server
+- [MDC - Markdown Components](https://marketplace.visualstudio.com/items?itemName=Nuxt.mdc) - Provides syntax highlighting and colon matching for MDC (Markdown Components) files for Nuxt Content.
+- [Nuxtr](https://marketplace.visualstudio.com/items?itemName=Nuxtr.nuxtr-vscode) - An extension for Nuxt offering commands and tools to make your experience more pleasant.
 - [Vue VSCode Snippets](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets) - Snippets that will supercharge your Vue workflow
 - [Vite](https://marketplace.visualstudio.com/items?itemName=antfu.vite) - VS Code for Vite
 - [Vitest for VSCode](https://marketplace.visualstudio.com/items?itemName=ZixuanChen.vitest-explorer) - Run and debug Vitest test cases
