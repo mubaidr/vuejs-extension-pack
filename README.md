@@ -1,6 +1,6 @@
 # Vue.js Extension Pack
 
-This extension pack adds features and language support for Vue.js development.
+This extension pack adds features and language support for Vue.js and Nuxt development.
 
 ## Extensions Included in this pack
 
@@ -18,10 +18,6 @@ This extension pack adds features and language support for Vue.js development.
 - [Formatting toggle](https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle) - A VS Code extension that allows you to toggle the formatter on and off with a simple click
 - [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense) - Visual Studio Code plugin that autocompletes npm modules in import statements
 - [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode) - AI-assisted development
-
-## Note
-
-**For proper typescript support in Vue Single File Components (Vue SFCs), please follow these instructions on official Vue.js page: [VSCode + Volar Takeover Mode](https://vuejs.org/guide/typescript/overview.html#takeover-mode)**
 
 ## Credits
 

@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 2.0.2
+
+- Added Nuxt extensions
+- Removed instructions for `TypeScript Vue Plugin (Volar)`, which is deprecated now
+
 ## 1.9.0
 
 - Added `Vitest for VSCode`
