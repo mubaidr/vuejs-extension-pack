@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.0.3
+
+- Added Nuxt DX Tools
+
 ## 2.0.2
 
 - Added Nuxt extensions

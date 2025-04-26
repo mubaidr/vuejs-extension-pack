@@ -13,6 +13,7 @@
   "extensionPack": [
     "Vue.volar",
     "Nuxt.mdc",
+    "alimozdemir.vscode-nuxt-dx-tools",
     "Nuxtr.nuxtr-vscode",
     "sdras.vue-vscode-snippets",
     "antfu.vite",
@@ -38,9 +39,13 @@
     "snippets"
   ],
   "name": "vuejs-extension-pack",
+  "pricing": "Free",
   "publisher": "mubaidr",
   "repository": {
     "url": "https://github.com/mubaidr/vuejs-extension-pack"
   },
-  "version": "2.0.2"
+  "sponsor": {
+    "url": "https://patreon.com/mubaidr"
+  },
+  "version": "2.0.3"
 }
