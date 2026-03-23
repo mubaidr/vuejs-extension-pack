@@ -4,28 +4,37 @@
 
 ### Added
 
-- Oxc - Ultra-fast linter and formatter (Oxlint + Oxfmt) for JavaScript/TypeScript/Vue
-- Tailwind CSS IntelliSense - Intelligent Tailwind CSS tooling for VS Code
-- Pretty TypeScript Errors - Make TypeScript errors more human-readable
-- Error Lens - Inline error highlighting for better diagnostics
-- Code Spell Checker - Spelling checker for source code
-- EditorConfig - Consistent coding style across editors
-- Better Comments - Color-coded comments (TODO, alerts, etc.)
-- Import Cost - Display package sizes in imports
+- **Oxc** - Ultra-fast linter and formatter (Oxlint + Oxfmt) for JavaScript/TypeScript/Vue
+- **Tailwind CSS IntelliSense** - Intelligent Tailwind CSS tooling for VS Code
+- **Error Lens** - Inline error highlighting for better diagnostics
+- **Code Spell Checker** - Spelling checker for source code
+- **EditorConfig** - Consistent coding style across editors
+- **DotENV** - DotENV file support for VS Code
+- **Docker** - Docker extension for VS Code
+- **GitHub Pull Requests** - GitHub Pull Requests & Issues integration
+- **Containers** - Container support for VS Code
 
 ### Removed
 
-- ESLint - Replaced by Oxc (faster, modern alternative)
-- Visual Studio IntelliCode - Replaced by modern AI tools (GitHub Copilot)
-- Formatting toggle - Low-value extension, can be toggled via settings
-- JavaScript (ES6) Snippets - Vue snippets cover most use cases
+- **Nuxtr** - Nuxt commands & tools (streamlining pack to core essentials)
+- **Nuxt DX Tools** - Nuxt navigation tools (streamlining pack to core essentials)
+- **Vite extension** - Vite integration (now built into Nuxt/Volar)
+- **Pretty TypeScript Errors** - TypeScript errors now readable natively in VS Code
+- **Better Comments** - Nice-to-have but not essential
+- **Import Cost** - Package size display (nice-to-have but not essential)
+- **npm Intellisense** - npm autocomplete (built into VS Code, less relevant with Copilot)
+- **ESLint** - Replaced by Oxc (faster, modern alternative)
+- **Visual Studio IntelliCode** - Replaced by modern AI tools (GitHub Copilot)
+- **Formatting toggle** - Low-value extension, can be toggled via settings
+- **JavaScript (ES6) Snippets** - Vue snippets cover most use cases
 
 ### Changed
 
 - Updated minimum VS Code version to `^1.85.0`
-- Updated description to reflect modern Vue/Nuxt/TypeScript stack
+- Updated description to reflect streamlined, modern Vue/Nuxt/TypeScript stack
 - Added new keywords: `tailwindcss`, `vite`, `vitest`
 - Reorganized README with better categorization
+- Simplified extension pack to 10 core extensions
 
 ## 2.0.3
 

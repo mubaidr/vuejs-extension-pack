@@ -12,26 +12,23 @@
   },
   "extensionPack": [
     "Vue.volar",
-    "Nuxtr.nuxtr-vscode",
-    "alimozdemir.vscode-nuxt-dx-tools",
     "Nuxt.mdc",
     "sdras.vue-vscode-snippets",
-    "antfu.vite",
     "vitest.explorer",
     "oxc.oxc-vscode",
     "esbenp.prettier-vscode",
     "bradlc.vscode-tailwindcss",
-    "yoavbls.pretty-ts-errors",
     "usernamehw.errorlens",
     "streetsidesoftware.code-spell-checker",
     "editorconfig.editorconfig",
-    "aaron-bond.better-comments",
-    "wix.vscode-import-cost",
-    "christian-kohler.npm-intellisense"
+    "mikestead.dotenv",
+    "docker.docker",
+    "GitHub.vscode-pull-request-github",
+    "ms-azuretools.vscode-containers"
   ],
   "galleryBanner": {
-    "color": "#333333",
-    "theme": "dark"
+    "color": "#42b883",
+    "theme": "light"
   },
   "homepage": "https://github.com/mubaidr/vuejs-extension-pack",
   "icon": "vuejs-icon.png",
