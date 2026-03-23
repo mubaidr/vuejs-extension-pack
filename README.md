@@ -1,27 +1,66 @@
 # Vue.js Extension Pack
 
-This extension pack adds features and language support for Vue.js and Nuxt development.
+This extension pack adds features and language support for Vue.js, Nuxt, and TypeScript development with modern tooling including Tailwind CSS support.
 
 ## Extensions Included in this pack
 
-- [Vue Language Features (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) - Language support for Vue 3
-- [MDC - Markdown Components](https://marketplace.visualstudio.com/items?itemName=Nuxt.mdc) - Provides syntax highlighting and colon matching for MDC (Markdown Components) files for Nuxt Content.
-- [Nuxtr](https://marketplace.visualstudio.com/items?itemName=Nuxtr.nuxtr-vscode) - An extension for Nuxt offering commands and tools to make your experience more pleasant.
-- [Nuxt DX Tools](https://marketplace.visualstudio.com/items?itemName=alimozdemir.vscode-nuxt-dx-tools) - A VSCode extension designed to enhance the developer experience for Nuxt projects by providing tools for auto-locating and navigating to auto-imported components, functions, routes and more.
+### Vue & Nuxt Core
+
+- [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) - Language support for Vue 3
+- [Nuxtr](https://marketplace.visualstudio.com/items?itemName=Nuxtr.nuxtr-vscode) - An extension for Nuxt offering commands and tools to make your experience more pleasant
+- [Nuxt DX Tools](https://marketplace.visualstudio.com/items?itemName=alimozdemir.vscode-nuxt-dx-tools) - Tools for auto-locating and navigating to auto-imported components, functions, routes and more
+- [MDC - Markdown Components](https://marketplace.visualstudio.com/items?itemName=Nuxt.mdc) - Syntax highlighting for MDC (Markdown Components) files for Nuxt Content
+
+### Snippets & Productivity
+
 - [Vue VSCode Snippets](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets) - Snippets that will supercharge your Vue workflow
+
+### Build & Testing
+
 - [Vite](https://marketplace.visualstudio.com/items?itemName=antfu.vite) - VS Code for Vite
-- [Vitest for VSCode](https://marketplace.visualstudio.com/items?itemName=ZixuanChen.vitest-explorer) - Run and debug Vitest test cases
-- [JavaScript (ES6) Snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets) - Code snippets for JavaScript in ES6 syntax
-- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) -
-Integrates ESLint into VS Code.
-- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) -
-VS Code plugin for prettier/prettier
-- [Formatting toggle](https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle) - A VS Code extension that allows you to toggle the formatter on and off with a simple click
-- [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense) - Visual Studio Code plugin that autocompletes npm modules in import statements
-- [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode) - AI-assisted development
+- [Vitest](https://marketplace.visualstudio.com/items?itemName=vitest.explorer) - Run and debug Vitest test cases
+
+### Code Quality
+
+- [Oxc](https://marketplace.visualstudio.com/items?itemName=oxc.oxc-vscode) - Oxlint and Oxfmt editor integration - ultra-fast linter and formatter for JavaScript/TypeScript
+- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - VS Code plugin for prettier/prettier
+- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) - Improve highlighting of errors, warnings and other language diagnostics
+- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) - Spelling checker for source code
+
+### TypeScript
+
+- [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors) - Make TypeScript errors prettier and more human-readable
+
+### Tailwind CSS
+
+- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) - Intelligent Tailwind CSS tooling for VS Code
+
+### Developer Experience
+
+- [EditorConfig](https://marketplace.visualstudio.com/items?itemName=editorconfig.editorconfig) - EditorConfig Support for Visual Studio Code
+- [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) - Improve your code commenting with alert, informational, TODOs, and more
+- [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) - Display import/require package size in the editor
+- [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense) - Autocomplete npm modules in import statements
+
+## Recommended Settings
+
+For the best experience, consider adding these settings to your workspace:
+
+```json
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.oxc": "explicit"
+  },
+  "tailwindCSS.includeLanguages": {
+    "vue": "html"
+  }
+}
+```
 
 ## Credits
 
 All credits goes to original authors of the above mentioned extensions.
 
-**Happy Coding!**
+Happy Coding!

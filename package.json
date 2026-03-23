@@ -5,25 +5,29 @@
   "categories": [
     "Extension Packs"
   ],
-  "description": "Popular VS Code extensions for Vue.js development providing Syntax highlighting, Code format, Code snippets, IntelliSense, Linting support, npm & node tools.",
+  "description": "Essential VS Code extensions for Vue.js, Nuxt, and TypeScript development providing syntax highlighting, code formatting, snippets, IntelliSense, linting, testing, and Tailwind CSS support.",
   "displayName": "Vue.js Extension Pack",
   "engines": {
-    "vscode": "^1.26.0"
+    "vscode": "^1.85.0"
   },
   "extensionPack": [
     "Vue.volar",
-    "Nuxt.mdc",
-    "alimozdemir.vscode-nuxt-dx-tools",
     "Nuxtr.nuxtr-vscode",
+    "alimozdemir.vscode-nuxt-dx-tools",
+    "Nuxt.mdc",
     "sdras.vue-vscode-snippets",
     "antfu.vite",
     "vitest.explorer",
-    "xabikos.javascriptsnippets",
-    "dbaeumer.vscode-eslint",
+    "oxc.oxc-vscode",
     "esbenp.prettier-vscode",
-    "tombonnike.vscode-status-bar-format-toggle",
-    "christian-kohler.npm-intellisense",
-    "VisualStudioExptTeam.vscodeintellicode"
+    "bradlc.vscode-tailwindcss",
+    "yoavbls.pretty-ts-errors",
+    "usernamehw.errorlens",
+    "streetsidesoftware.code-spell-checker",
+    "editorconfig.editorconfig",
+    "aaron-bond.better-comments",
+    "wix.vscode-import-cost",
+    "christian-kohler.npm-intellisense"
   ],
   "galleryBanner": {
     "color": "#333333",
@@ -36,7 +40,10 @@
     "nuxt",
     "javascript",
     "typescript",
-    "snippets"
+    "tailwindcss",
+    "snippets",
+    "vite",
+    "vitest"
   ],
   "name": "vuejs-extension-pack",
   "pricing": "Free",
@@ -47,5 +54,5 @@
   "sponsor": {
     "url": "https://patreon.com/mubaidr"
   },
-  "version": "2.0.3"
+  "version": "3.0.0"
 }

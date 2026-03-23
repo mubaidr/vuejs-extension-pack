@@ -1,5 +1,32 @@
 # CHANGELOG
 
+## 3.0.0
+
+### Added
+
+- Oxc - Ultra-fast linter and formatter (Oxlint + Oxfmt) for JavaScript/TypeScript/Vue
+- Tailwind CSS IntelliSense - Intelligent Tailwind CSS tooling for VS Code
+- Pretty TypeScript Errors - Make TypeScript errors more human-readable
+- Error Lens - Inline error highlighting for better diagnostics
+- Code Spell Checker - Spelling checker for source code
+- EditorConfig - Consistent coding style across editors
+- Better Comments - Color-coded comments (TODO, alerts, etc.)
+- Import Cost - Display package sizes in imports
+
+### Removed
+
+- ESLint - Replaced by Oxc (faster, modern alternative)
+- Visual Studio IntelliCode - Replaced by modern AI tools (GitHub Copilot)
+- Formatting toggle - Low-value extension, can be toggled via settings
+- JavaScript (ES6) Snippets - Vue snippets cover most use cases
+
+### Changed
+
+- Updated minimum VS Code version to `^1.85.0`
+- Updated description to reflect modern Vue/Nuxt/TypeScript stack
+- Added new keywords: `tailwindcss`, `vite`, `vitest`
+- Reorganized README with better categorization
+
 ## 2.0.3
 
 - Added Nuxt DX Tools
